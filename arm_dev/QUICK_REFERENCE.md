@@ -2,11 +2,12 @@
 
 ## 🚀 One-Time Setup (First Time Only)
 
+### Debian-based Linux (Ubuntu, Debian, Linux Mint)
 ```bash
-# 1. Install devkitPro
-wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.amd64.deb
-sudo dpkg -i devkitpro-pacman.amd64.deb
-sudo dkp-pacman -S devkitARM libnx switch-tools
+# 1. Install devkitPro using official script
+wget https://apt.devkitpro.org/install-devkitpro-pacman
+chmod +x ./install-devkitpro-pacman
+sudo ./install-devkitpro-pacman
 
 # 2. Add to ~/.bashrc or ~/.zshrc
 export DEVKITPRO=/opt/devkitpro
@@ -16,6 +17,39 @@ export PATH=$DEVKITARM/bin:$PATH
 # 3. Reload shell
 source ~/.bashrc
 ```
+
+### WSL (Windows Subsystem for Linux)
+```bash
+# If needed, create mtab symlink
+sudo ln -s /proc/self/mounts /etc/mtab
+
+# Then follow Debian instructions above
+```
+
+### macOS
+```bash
+# Download from GitHub releases (v6.0.2):
+# https://github.com/devkitPro/pacman/releases/tag/v6.0.2
+
+# Install via terminal:
+sudo installer -pkg /path/to/devkitpro-pacman-installer.pkg -target /
+
+# Or right-click the .pkg and select "Open"
+
+# Then add to ~/.zshrc:
+export DEVKITPRO=/opt/devkitpro
+export DEVKITARM=$DEVKITPRO/devkitARM
+export PATH=$DEVKITARM/bin:$PATH
+```
+
+### Arch Linux
+See: https://devkitpro.org/wiki/devkitPro_pacman
+
+### Fedora/RHEL
+See: https://devkitpro.org/wiki/devkitPro_pacman
+
+### Gentoo
+See: https://devkitpro.org/wiki/devkitPro_pacman
 
 ## 🛠 Build Commands
 
@@ -90,6 +124,8 @@ ls -lh /workspaces/CSharp_game/arm_dev/hello_world.elf
 
 ## 📖 External References
 
+- [devkitPro Installation Guide](https://devkitpro.org/wiki/devkitPro_pacman) - All distros
+- [devkitPro GitHub Releases](https://github.com/devkitPro/pacman/releases/tag/v6.0.2) - v6.0.2 binaries
 - [libnx GitHub](https://github.com/switchbrew/libnx)
 - [devkitPro Official](https://devkitpro.org/)
 - [Nintendo Switch Homebrew](https://switchbrew.org/)

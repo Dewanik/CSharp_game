@@ -33,11 +33,14 @@ Your Nintendo Switch ARM development environment is **ready to use**!
 ## 🎯 One-Command Setup (Linux/WSL)
 
 ```bash
-# Install devkitPro
-wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.amd64.deb && \
-sudo dpkg -i devkitpro-pacman.amd64.deb && \
-sudo dkp-pacman -S devkitARM libnx switch-tools && \
+# For Debian-based systems (Ubuntu, Debian, Mint)
+wget https://apt.devkitpro.org/install-devkitpro-pacman && \
+chmod +x ./install-devkitpro-pacman && \
+sudo ./install-devkitpro-pacman && \
 echo "✅ Installation complete!"
+
+# For WSL, if needed, run this first:
+sudo ln -s /proc/self/mounts /etc/mtab
 ```
 
 Then add to ~/.bashrc:

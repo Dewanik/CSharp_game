@@ -5,8 +5,14 @@ A minimal Hello World application for Nintendo Switch development using **libnx*
 ## Quick Start
 
 ### 1. Install Development Tools
+See [COMPILE.md](COMPILE.md) for detailed instructions for your OS:
+- **Linux/Debian:** `wget https://apt.devkitpro.org/install-devkitpro-pacman && chmod +x ./install-devkitpro-pacman && sudo ./install-devkitpro-pacman`
+- **macOS:** Download .pkg from [GitHub Releases](https://github.com/devkitPro/pacman/releases/tag/v6.0.2)
+- **WSL:** May need to first run `sudo ln -s /proc/self/mounts /etc/mtab`
+- **Arch/Fedora/Gentoo:** See [devkitpro.org/wiki/devkitPro_pacman](https://devkitpro.org/wiki/devkitPro_pacman)
+
+Then run setup verification:
 ```bash
-# Follow the detailed guide in COMPILE.md
 bash setup.sh
 ```
 
@@ -53,11 +59,7 @@ arm_dev/
 ## Troubleshooting
 
 ### "DEVKITARM not set"
-```bash
-export DEVKITPRO=/opt/devkitpro
-export DEVKITARM=$DEVKITPRO/devkitARM
-export PATH=$DEVKITARM/bin:$PATH
-```
+See [COMPILE.md](COMPILE.md#prerequisites) for your OS-specific installation
 
 ### "arm-none-eabi-gcc not found"
 ```bash
@@ -68,6 +70,16 @@ sudo dkp-pacman -S devkitARM
 ```bash
 sudo dkp-pacman -S libnx
 ```
+
+### "wget not working"
+```bash
+# Use curl instead:
+curl https://apt.devkitpro.org/install-devkitpro-pacman -o install-devkitpro-pacman
+chmod +x ./install-devkitpro-pacman
+sudo ./install-devkitpro-pacman
+```
+
+See [COMPILE.md - Troubleshooting](COMPILE.md#troubleshooting) for more help.
 
 ## Platform Support
 

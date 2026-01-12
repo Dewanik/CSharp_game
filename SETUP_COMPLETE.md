@@ -24,11 +24,28 @@ Your Nintendo Switch ARM development environment has been fully set up!
 ## 🎯 Quick Start
 
 ### 1. Install devkitPro (One Time)
+
+**Debian-based (Ubuntu, Debian, Mint):**
 ```bash
-wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.amd64.deb
-sudo dpkg -i devkitpro-pacman.amd64.deb
-sudo dkp-pacman -S devkitARM libnx switch-tools
+wget https://apt.devkitpro.org/install-devkitpro-pacman
+chmod +x ./install-devkitpro-pacman
+sudo ./install-devkitpro-pacman
 ```
+
+**macOS:**
+```bash
+# Download from: https://github.com/devkitPro/pacman/releases/tag/v6.0.2
+sudo installer -pkg /path/to/devkitpro-pacman-installer.pkg -target /
+# Or right-click .pkg and select "Open"
+```
+
+**WSL (if needed):**
+```bash
+sudo ln -s /proc/self/mounts /etc/mtab
+# Then follow Debian instructions above
+```
+
+**Other distros:** https://devkitpro.org/wiki/devkitPro_pacman
 
 ### 2. Set Environment Variables
 Add to ~/.bashrc or ~/.zshrc:
@@ -59,7 +76,10 @@ file hello_world.elf
 ## 🔗 External Links
 
 - [libnx Official Documentation](https://github.com/switchbrew/libnx)
-- [devkitPro Tools](https://devkitpro.org/)
+- [devkitPro Official](https://devkitpro.org/)
+- [devkitPro Installation Guide (All distros)](https://devkitpro.org/wiki/devkitPro_pacman)
+- [devkitPro GitHub Releases v6.0.2](https://github.com/devkitPro/pacman/releases/tag/v6.0.2)
+- [devkitPro Docker Images](https://hub.docker.com/u/devkitpro)
 - [Nintendo Switch Homebrew](https://switchbrew.org/)
 
 ## ✨ Features Included

@@ -17,10 +17,20 @@ Complete setup for Nintendo Switch (ARM64) development using **libnx** SDK.
 
 ### Prerequisites
 ```bash
-# Install devkitPro (Linux/WSL)
-wget https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.amd64.deb
-sudo dpkg -i devkitpro-pacman.amd64.deb
-sudo dkp-pacman -S devkitARM libnx switch-tools
+# For Debian-based systems (Ubuntu, Debian, Linux Mint):
+wget https://apt.devkitpro.org/install-devkitpro-pacman
+chmod +x ./install-devkitpro-pacman
+sudo ./install-devkitpro-pacman
+
+# For WSL, if needed:
+sudo ln -s /proc/self/mounts /etc/mtab
+
+# For macOS:
+# Download from: https://github.com/devkitPro/pacman/releases/tag/v6.0.2
+# sudo installer -pkg devkitpro-pacman-installer.pkg -target /
+
+# For other distributions (Arch, Fedora, Gentoo):
+# See: https://devkitpro.org/wiki/devkitPro_pacman
 ```
 
 ### Quick Compile
@@ -65,8 +75,10 @@ file arm_dev/hello_world.elf
 
 - 📚 [libnx Official Documentation](https://github.com/switchbrew/libnx)
 - 🔧 [devkitPro Tools](https://devkitpro.org/)
+- 📖 [devkitPro Installation Guide](https://devkitpro.org/wiki/devkitPro_pacman) - All distros
+- 🔗 [devkitPro GitHub Releases](https://github.com/devkitPro/pacman/releases/tag/v6.0.2) - v6.0.2 binaries
 - 🏠 [Nintendo Switch Homebrew](https://switchbrew.org/)
-- 📖 [ARM Cortex-A57 Reference](https://developer.arm.com/)
+- 🐳 [devkitPro Docker Images](https://hub.docker.com/u/devkitpro)
 
 ## Environment Setup
 
