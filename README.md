@@ -17,15 +17,15 @@ cd /workspaces/CSharp_game && ./build.sh
 This does everything automatically:
 - Downloads the Nintendo Switch compiler (Docker)
 - Compiles your code to ARM64
-- Creates your executable
+- Converts to .nro format (Homebrew Launcher compatible)
 
 ### Step 2: Verify It Worked
 
 ```bash
-ls -lh arm_dev/hello_world.elf
+ls -lh arm_dev/hello_world.nro
 ```
 
-You should see a file around **100+ KB**. ✅ **Done!** You have a Nintendo Switch ARM64 executable!
+You should see **hello_world.nro** (~92 KB). ✅ **Done!** You have a Nintendo Switch Homebrew executable ready to run!
 
 ---
 
@@ -35,7 +35,7 @@ You should see a file around **100+ KB**. ✅ **Done!** You have a Nintendo Swit
 |-------|-----|
 | `docker: command not found` | Install Docker first: https://docs.docker.com/install/ |
 | `Permission denied` | Run: `sudo usermod -aG docker $USER` then logout/login |
-| `hello_world.elf` not created | Run `./build.sh` again and check for error messages |
+| `hello_world.nro` not created | Run `./build.sh` again and check for error messages |
 
 ---
 
@@ -82,17 +82,23 @@ The `build.sh` script automatically:
 
 2. **Sets Up Compiler Environment**
    - Configures PATH to use aarch64-none-elf-gcc
+   - Links against libnx (Nintendo Switch SDK)
    - Sets ARM64 architecture flags (-march=armv8-a)
    - Targets Cortex-A57 CPU
 
 3. **Compiles Your Code**
    - Runs: `aarch64-none-elf-gcc` on src/main.c
-   - Creates object file in build/src/
-   - Links to create hello_world.elf
+   - Links with libnx and switch.specs
+   - Creates hello_world.elf (ELF 64-bit executable)
 
-4. **Verifies Success**
-   - Checks if hello_world.elf was created
-   - Shows file size and properties
+4. **Converts to NRO Format**
+   - Runs: `elf2nro hello_world.elf hello_world.nro`
+   - NRO = Nintendo Relocatable Object (Homebrew format)
+   - Creates hello_world.nro (ready for Switch Homebrew Launcher)
+
+5. **Verifies Success**
+   - Checks both .elf and .nro created
+   - Shows file sizes and properties
 
 ---
 
@@ -187,33 +193,31 @@ cd arm_dev && make VERBOSE=1
 
 ## ✅ Verification & Testing
 
-### Check Binary Exists
+### Check Binaries Exist
 
 ```bash
-ls -lh arm_dev/hello_world.elf
+ls -lh arm_dev/hello_world.*
 ```
 
-Expected: File showing ~100+ KB
+Expected: Both `hello_world.elf` (~2.4 MB) and `hello_world.nro` (~92 KB)
 
-### Verify Architecture
+### Verify NRO Format
 
 ```bash
-file arm_dev/hello_world.elf
+hexdump -C arm_dev/hello_world.nro | head -5
 ```
 
-Expected output:
-```
-hello_world.elf: ELF 64-bit LSB executable, ARM aarch64
-```
+Expected: First bytes should be `4e 52 4f 30` (NRO0 magic number)
 
-### Check Compiler Version
+### Check NRO Header
 
 ```bash
-docker run --rm devkitpro/devkita64:20251231 \
-  bash -c "aarch64-none-elf-gcc --version"
+docker run --rm -v /workspaces/CSharp_game/arm_dev:/ws \
+  devkitpro/devkita64:20251231 \
+  bash -c "nro /ws/hello_world.nro"
 ```
 
-Expected: ARM GCC compiler version info
+Shows NRO header information
 
 ---
 
@@ -242,9 +246,14 @@ docker pull devkitpro/devkita64:20251231
 
 ### Build Issues
 
+**Error:** `elf2nro: Invalid ELF`
+- ELF is not compiled with proper libnx linking
+- Ensure build.sh has: `-lnx -specs=/opt/devkitpro/libnx/switch.specs`
+- The script handles this automatically
+
 **Error:** `aarch64-none-elf-gcc: command not found`
 - The PATH is not set correctly in Docker
-- The build.sh script should handle this automatically
+- build.sh sets: `export PATH=/opt/devkitpro/devkitA64/bin:/opt/devkitpro/tools/bin:$PATH`
 - Check: `docker run --rm devkitpro/devkita64:20251231 bash -c "which aarch64-none-elf-gcc"`
 
 **Error:** `cannot represent machine 'aarch64'`
@@ -252,21 +261,14 @@ docker pull devkitpro/devkita64:20251231
 - Ensure build.sh uses `/opt/devkitpro/devkitA64/` tools
 - Not using local devkitARM (which is 32-bit only)
 
-**Error:** `hello_world.elf: No such file or directory`
-- Build didn't complete successfully
-- Check output above for compilation errors
-- Try: `cd arm_dev && make clean && make VERBOSE=1`
-
-**Error:** `DEVKITARM not set` (if using native build)
-```bash
-source ~/.bashrc
-echo $DEVKITARM
-# Should show: /opt/devkitpro/devkitARM
-```
+**Error:** `hello_world.nro` not created
+- Build script failed before elf2nro step
+- Check compilation/linking errors above
+- Run: `./build.sh` again and watch for errors
 
 **Build is very slow**
 - First Docker pull downloads ~3GB image (1-2 min on fast connection)
-- Subsequent builds are cached and much faster (~30 seconds)
+- Subsequent builds are cached and much faster (~45 sec)
 - Make sure you have stable internet for first build
 
 ---
@@ -287,19 +289,19 @@ echo $DEVKITARM
 
 After successful build:
 
-1. **Run on Hardware**
-   - Convert `.elf` to `.nro` format with `elf2nro`
-   - Use Homebrew Launcher to run
-   - Test on actual Nintendo Switch
+1. **Run on Nintendo Switch Hardware** ⭐
+   - Copy `hello_world.nro` to Switch SD card: `/switch/` folder
+   - Run via Homebrew Launcher (requires CFW)
+   - Test your program on actual hardware
 
-2. **Add Features**
-   - Include libnx.h for graphics
-   - Add controller input handling
+2. **Add More Features**
+   - Include graphics with SDL2 or libnx graphics APIs
+   - Handle controller input (buttons, joystick)
    - Implement game logic
-   - Use standard C library functions
+   - Use standard C/C++ libraries
 
 3. **Learn More**
-   - **libnx SDK:** https://github.com/switchbrew/libnx
+   - **libnx Documentation:** https://github.com/switchbrew/libnx
    - **devkitPro Official:** https://devkitpro.org/
    - **Nintendo Switch Homebrew:** https://switchbrew.org/
    - **ARM Development:** https://developer.arm.com/
@@ -336,10 +338,10 @@ After successful build:
 - [ ] Project cloned/copied to `/workspaces/CSharp_game/`
 - [ ] `build.sh` is executable (run `chmod +x build.sh` if needed)
 - [ ] Ran `./build.sh` successfully
-- [ ] `hello_world.elf` created in `arm_dev/`
-- [ ] Verified with `file arm_dev/hello_world.elf`
-- [ ] Output shows "ELF 64-bit LSB executable, ARM aarch64"
-- [ ] Ready to modify code and rebuild
+- [ ] `hello_world.elf` created in `arm_dev/` (ELF format)
+- [ ] `hello_world.nro` created in `arm_dev/` (Homebrew format)
+- [ ] NRO file is ~92 KB (expected size)
+- [ ] Ready to copy .nro to Nintendo Switch
 - [ ] Understand how build.sh works
 - [ ] Bookmarked useful resources for next steps
 
@@ -347,9 +349,11 @@ After successful build:
 
 ## 🎮 You're Ready!
 
-You now have a working Nintendo Switch ARM64 development environment. Your `hello_world.elf` is a compiled executable ready for Switch hardware. Edit `arm_dev/src/main.c`, run `./build.sh`, and iterate!
+You now have:
+- **hello_world.elf** - Compiled ARM64 executable (for debugging/linking)
+- **hello_world.nro** - Nintendo Switch Homebrew format (ready to run on Switch!)
 
-Happy coding! 🚀
+Edit `arm_dev/src/main.c`, run `./build.sh`, and iterate! Copy the .nro to your Switch and run via Homebrew Launcher. 🚀
 
 You now have a complete Nintendo Switch ARM development environment in GitHub Codespace.
 
