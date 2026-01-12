@@ -1,0 +1,216 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║             🎮 NINTENDO SWITCH HELLO WORLD - COMPLETE GUIDE                ║
+║                     Start to End Setup & Build                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+WHAT YOU'LL BUILD
+─────────────────
+A simple "Hello World" program that compiles to an ARM64 executable for
+the Nintendo Switch. Start: 2 minutes. Build: 45 seconds. Total: ~3 minutes.
+
+════════════════════════════════════════════════════════════════════════════
+ STEP-BY-STEP SETUP (5 MINUTES)
+════════════════════════════════════════════════════════════════════════════
+
+📌 STEP 1: Read the README (2 minutes)
+─────────────────────────────────────────
+Open and read:
+  /workspaces/CSharp_game/README.md
+
+This explains everything in detail.
+
+📌 STEP 2: Setup Environment Variables (1 minute)
+──────────────────────────────────────────────────
+Open Terminal: Ctrl + ` (backtick)
+
+Copy-paste this:
+
+    cat >> ~/.bashrc << 'EOF'
+    export DEVKITPRO=/opt/devkitpro
+    export DEVKITARM=$DEVKITPRO/devkitARM
+    export PATH=$DEVKITARM/bin:$PATH
+    EOF
+
+Then run:
+
+    source ~/.bashrc
+
+Verify:
+
+    echo $DEVKITARM
+
+Expected: /opt/devkitpro/devkitARM
+
+📌 STEP 3: Build (1 minute, first time includes Docker download)
+─────────────────────────────────────────────────────────────────
+Option A - Using build script (RECOMMENDED):
+
+    cd /workspaces/CSharp_game
+    chmod +x build.sh
+    ./build.sh
+
+Option B - Direct Docker command:
+
+    cd /workspaces/CSharp_game/arm_dev
+    docker run --rm -v $(pwd):/workspace devkitpro/devkita64:20251231 \
+      bash -c "export DEVKITPRO=/opt/devkitpro && \
+               export DEVKITARM=/opt/devkitpro/devkitARM && \
+               export PATH=/opt/devkitpro/devkitARM/bin:/opt/devkitpro/tools/bin:\$PATH && \
+               make clean && make"
+
+✅ BUILD SUCCESSFUL!
+
+Your executable: /workspaces/CSharp_game/arm_dev/hello_world.elf
+
+════════════════════════════════════════════════════════════════════════════
+ VERIFY THE BUILD
+════════════════════════════════════════════════════════════════════════════
+
+Check file exists:
+
+    ls -lh /workspaces/CSharp_game/arm_dev/hello_world.elf
+
+Expected: File ~100 KB, named hello_world.elf
+
+Check it's ARM64:
+
+    file /workspaces/CSharp_game/arm_dev/hello_world.elf
+
+Expected: ELF 64-bit LSB executable, ARM aarch64
+
+════════════════════════════════════════════════════════════════════════════
+ PROJECT STRUCTURE
+════════════════════════════════════════════════════════════════════════════
+
+/workspaces/CSharp_game/
+│
+├── README.md                    ← MAIN GUIDE (read this!)
+├── SETUP_GUIDE.txt             ← This file
+├── build.sh                    ← Build script (run this!)
+│
+└── arm_dev/                    ← Your development folder
+    ├── src/
+    │   └── main.c              ← Source code
+    ├── Makefile                ← Build configuration
+    ├── build/                  ← Build output
+    │   └── hello_world.elf     ← Your executable
+    └── hello_world.map         ← Debug map file
+
+════════════════════════════════════════════════════════════════════════════
+ SOURCE CODE
+════════════════════════════════════════════════════════════════════════════
+
+File: arm_dev/src/main.c
+
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main() {
+        printf("Hello World!\n");
+        printf("Nintendo Switch ARM Development\n");
+        printf("Build successful!\n");
+        return 0;
+    }
+
+Simple! Just prints messages and exits. Perfect starting point.
+
+════════════════════════════════════════════════════════════════════════════
+ FREQUENTLY USED COMMANDS
+════════════════════════════════════════════════════════════════════════════
+
+Build:
+
+    ./build.sh
+    
+    OR directly:
+    
+    docker run --rm -v $(pwd):/workspace devkitpro/devkita64:20251231 \
+      bash -c "export DEVKITPRO=/opt/devkitpro && \
+               export DEVKITARM=/opt/devkitpro/devkitARM && \
+               export PATH=/opt/devkitpro/devkitARM/bin:/opt/devkitpro/tools/bin:\$PATH && \
+               cd /workspace/arm_dev && make clean && make"
+
+Clean build artifacts:
+
+    cd arm_dev && make clean
+
+View source:
+
+    cat arm_dev/src/main.c
+
+Check executable:
+
+    file arm_dev/hello_world.elf
+    ls -lh arm_dev/hello_world.elf
+
+════════════════════════════════════════════════════════════════════════════
+ TROUBLESHOOTING
+════════════════════════════════════════════════════════════════════════════
+
+Problem: Docker command not found
+→ Install Docker or ensure it's in your PATH
+
+Problem: hello_world.elf not created
+→ Check build output for errors
+→ Run: cd arm_dev && make VERBOSE=1
+
+Problem: Permission denied running build.sh
+→ Fix: chmod +x build.sh
+
+Problem: DEVKITARM returns empty
+→ Ensure ~/.bashrc was updated
+→ Run: source ~/.bashrc
+
+════════════════════════════════════════════════════════════════════════════
+ ENVIRONMENT
+════════════════════════════════════════════════════════════════════════════
+
+Platform:       Nintendo Switch (ARM aarch64)
+Compiler:       arm-none-eabi-gcc
+SDK:            libnx (Nintendo Switch SDK)
+Build System:   Make
+Container:      Docker (devkitpro/devkita64:20251231)
+OS:             Ubuntu 24.04.3 LTS (GitHub Codespace)
+
+════════════════════════════════════════════════════════════════════════════
+ TIMELINE
+════════════════════════════════════════════════════════════════════════════
+
+Task                          Time
+─────────────────────────────────────
+Read README                   2 min
+Setup environment variables   1 min
+First build (with Docker DL)  2 min
+Verify executable             30 sec
+                              ─────
+TOTAL (First Time)            ~5 min
+
+Subsequent builds:            ~45 sec
+
+════════════════════════════════════════════════════════════════════════════
+ NEXT STEPS
+════════════════════════════════════════════════════════════════════════════
+
+After successful build:
+
+1. Modify main.c and rebuild to test changes
+2. Add libnx features (graphics, input, etc.)
+3. Convert .elf to .nro format for Nintendo Switch
+4. Deploy to Homebrew Launcher
+5. Run on actual Nintendo Switch hardware!
+
+Resources:
+
+- libnx examples: https://github.com/switchbrew/libnx/tree/master/examples
+- devkitPro docs: https://devkitpro.org/
+- Nintendo Homebrew: https://switchbrew.org/
+
+════════════════════════════════════════════════════════════════════════════
+ QUICK START COMMANDS
+════════════════════════════════════════════════════════════════════════════
+
+# First time setup (copy-paste all):
+cat >> ~/.bashrc << 'EOF'
+export DEVKITPRO=/opt/devkitpro
+export DEVKITARM=$DEVKITPRO/devkitARM
+export PATH=$DEVKITARM/bin:$PATH

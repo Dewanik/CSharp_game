@@ -1,0 +1,1070 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o (memset)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-init.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o (__libc_init_array)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fini.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o (__libc_fini_array)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o (exit)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o (atexit)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o) (__register_exitproc)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o) (__atexit)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-_exit.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o) (_exit)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o) (__libc_lock_acquire_recursive)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o) (clock_gettime)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o) (__errno)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o) (__getreent)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o) (_impure_ptr)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o) (__sf)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fwalk.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o) (_fwalk_sglue)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o) (_malloc_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o) (_free_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o) (__malloc_lock)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o) (__sread)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o) (_fclose_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o) (__sflush_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o) (_close_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o) (devoptab_list)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o) (_lseek_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-read.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o) (_read_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o) (_sbrk_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-write.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o) (_write_r)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o) (fake_heap_start)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o) (strcmp)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o) (strncmp)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o) (strchr)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o) (malloc)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o) (_ctype_)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o) (strlen)
+/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malignr.o)
+                              /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o) (_memalign_r)
+
+Merging program properties
+
+Removed property 0xc0000000 to merge /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o) (0x3) and /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o (not found)
+Removed property 0xc0000000 to merge /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o) (not found) and /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o) (0x3)
+Removed property 0xc0000000 to merge /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o) (not found) and /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o) (0x3)
+Removed property 0xc0000000 to merge /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o) (not found) and /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o) (0x3)
+Removed property 0xc0000000 to merge /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o) (not found) and /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o) (0x3)
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o)
+ .note.gnu.property
+                0x0000000000000000       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o)
+ .note.gnu.property
+                0x0000000000000000       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o)
+ .note.gnu.property
+                0x0000000000000000       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o)
+ .note.gnu.property
+                0x0000000000000000       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o
+LOAD build/src/main.o
+START GROUP
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/libgcc.a
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libc.a
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a
+END GROUP
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtend.o
+LOAD /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x400000))
+                0x0000000000400000                . = SEGMENT_START ("text-segment", 0x400000)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.interp
+ *(.interp)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.dyn       0x0000000000400000        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000400000        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ .rela.text._sbrk_r
+                0x0000000000400000        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400000        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ifunc)
+
+.rela.plt       0x0000000000400000        0x0
+ *(.rela.plt)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000400000        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init           0x0000000000400000       0x34
+ *(SORT_NONE(.init))
+ .init          0x0000000000400000       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o
+                0x0000000000400000                _init
+ .init          0x0000000000400018       0x1c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtn.o
+
+.plt            0x0000000000400034        0x0
+ *(.plt)
+ *(.iplt)
+ .iplt          0x0000000000400034        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+
+.text           0x0000000000400040     0x340c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ .text.exit     0x0000000000400040       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+                0x0000000000400040                exit
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000000400070        0x8 build/src/main.o
+                0x0000000000400070                main
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000400078        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o
+ .text          0x0000000000400078        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *fill*         0x0000000000400078        0x8 1f2003d5
+ .text.__do_global_dtors_aux
+                0x0000000000400080       0x50 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *fill*         0x00000000004000d0       0x10 1f2003d5
+ .text.frame_dummy
+                0x00000000004000e0       0x24 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *fill*         0x0000000000400104        0x4 1f2003d5
+ .text          0x0000000000400108       0x70 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o
+                0x0000000000400108                _mainCRTStartup
+                0x0000000000400108                _start
+                0x0000000000400154                _cpu_init_hook
+ .text          0x0000000000400178        0x0 build/src/main.o
+ *fill*         0x0000000000400178        0x8 1f2003d5
+ .text          0x0000000000400180      0x104 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o)
+                0x0000000000400180                memset
+ .text          0x0000000000400284        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-init.o)
+ *fill*         0x0000000000400284       0x1c 1f2003d5
+ .text.__libc_init_array
+                0x00000000004002a0       0xa4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-init.o)
+                0x00000000004002a0                __libc_init_array
+ .text          0x0000000000400344        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fini.o)
+ *fill*         0x0000000000400344       0x1c 1f2003d5
+ .text.__libc_fini_array
+                0x0000000000400360       0x44 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fini.o)
+                0x0000000000400360                __libc_fini_array
+ .text          0x00000000004003a4        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+ *fill*         0x00000000004003a4       0x1c 1f2003d5
+ .text.__call_exitprocs
+                0x00000000004003c0        0x4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+ .text          0x00000000004003c4        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o)
+ *fill*         0x00000000004003c4       0x1c 1f2003d5
+ .text.atexit   0x00000000004003e0       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o)
+                0x00000000004003e0                atexit
+ .text          0x00000000004003f4        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+ *fill*         0x00000000004003f4        0xc 1f2003d5
+ .text.__register_exitproc
+                0x0000000000400400       0xd0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+                0x0000000000400400                __register_exitproc
+ .text          0x00000000004004d0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+ *fill*         0x00000000004004d0       0x10 1f2003d5
+ .text.__call_exitprocs
+                0x00000000004004e0      0x168 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+                0x00000000004004e0                __call_exitprocs
+ .text          0x0000000000400648        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-_exit.o)
+ *fill*         0x0000000000400648       0x18 1f2003d5
+ .text._exit    0x0000000000400660       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-_exit.o)
+                0x0000000000400660                _exit
+ .text          0x0000000000400680        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .text.timespec2nsec
+                0x0000000000400680       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400680                timespec2nsec
+ *fill*         0x0000000000400694        0xc 1f2003d5
+ .text.abstimespec2nsec
+                0x00000000004006a0       0xc8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x00000000004006a0                abstimespec2nsec
+ *fill*         0x0000000000400768       0x18 1f2003d5
+ .text.__libc_lock_acquire
+                0x0000000000400780       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400780                __libc_lock_acquire
+ *fill*         0x0000000000400794        0xc 1f2003d5
+ .text.__libc_lock_try_acquire
+                0x00000000004007a0       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x00000000004007a0                __libc_lock_try_acquire
+ *fill*         0x00000000004007b8        0x8 1f2003d5
+ .text.__libc_lock_release
+                0x00000000004007c0       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x00000000004007c0                __libc_lock_release
+ *fill*         0x00000000004007d4        0xc 1f2003d5
+ .text.__libc_lock_acquire_recursive
+                0x00000000004007e0       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x00000000004007e0                __libc_lock_acquire_recursive
+ *fill*         0x00000000004007f4        0xc 1f2003d5
+ .text.__libc_lock_try_acquire_recursive
+                0x0000000000400800       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400800                __libc_lock_try_acquire_recursive
+ *fill*         0x0000000000400818        0x8 1f2003d5
+ .text.__libc_lock_release_recursive
+                0x0000000000400820       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400820                __libc_lock_release_recursive
+ *fill*         0x0000000000400834        0xc 1f2003d5
+ .text.__libc_cond_signal
+                0x0000000000400840       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400840                __libc_cond_signal
+ *fill*         0x0000000000400858        0x8 1f2003d5
+ .text.__libc_cond_broadcast
+                0x0000000000400860       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400860                __libc_cond_broadcast
+ *fill*         0x0000000000400878        0x8 1f2003d5
+ .text.__libc_cond_wait
+                0x0000000000400880       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x0000000000400880                __libc_cond_wait
+ *fill*         0x0000000000400898        0x8 1f2003d5
+ .text.__libc_cond_wait_recursive
+                0x00000000004008a0       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                0x00000000004008a0                __libc_cond_wait_recursive
+ .text          0x00000000004008b8        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ *fill*         0x00000000004008b8        0x8 1f2003d5
+ .text.clock_gettime
+                0x00000000004008c0       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+                0x00000000004008c0                clock_gettime
+ *fill*         0x00000000004008f0       0x10 1f2003d5
+ .text.clock_settime
+                0x0000000000400900       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+                0x0000000000400900                clock_settime
+ *fill*         0x0000000000400930       0x10 1f2003d5
+ .text.clock_getres
+                0x0000000000400940       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+                0x0000000000400940                clock_getres
+ .text          0x0000000000400970        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o)
+ *fill*         0x0000000000400970       0x10 1f2003d5
+ .text.__errno  0x0000000000400980       0x14 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o)
+                0x0000000000400980                __errno
+ .text          0x0000000000400994        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ *fill*         0x0000000000400994        0xc 1f2003d5
+ .text.__getreent
+                0x00000000004009a0       0x1c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+                0x00000000004009a0                __getreent
+ .text          0x00000000004009bc        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o)
+ .text          0x00000000004009bc        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x00000000004009bc        0x4 1f2003d5
+ .text.stdio_exit_handler
+                0x00000000004009c0       0x1c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x00000000004009dc        0x4 1f2003d5
+ .text.cleanup_stdio
+                0x00000000004009e0       0x74 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x0000000000400a54        0xc 1f2003d5
+ .text.__fp_lock
+                0x0000000000400a60       0x34 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x0000000000400a94        0xc 1f2003d5
+ .text.__fp_unlock
+                0x0000000000400aa0       0x34 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x0000000000400ad4        0xc 1f2003d5
+ .text.global_stdio_init.part.0
+                0x0000000000400ae0      0x144 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x0000000000400c24       0x1c 1f2003d5
+ .text.__sfp    0x0000000000400c40      0x150 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000400c40                __sfp
+ *fill*         0x0000000000400d90       0x10 1f2003d5
+ .text.__sinit  0x0000000000400da0       0x68 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000400da0                __sinit
+ *fill*         0x0000000000400e08       0x18 1f2003d5
+ .text.__sfp_lock_acquire
+                0x0000000000400e20        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000400e20                __sfp_lock_acquire
+ *fill*         0x0000000000400e2c       0x14 1f2003d5
+ .text.__sfp_lock_release
+                0x0000000000400e40        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000400e40                __sfp_lock_release
+ *fill*         0x0000000000400e4c       0x14 1f2003d5
+ .text.__fp_lock_all
+                0x0000000000400e60       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000400e60                __fp_lock_all
+ *fill*         0x0000000000400e90       0x10 1f2003d5
+ .text.__fp_unlock_all
+                0x0000000000400ea0       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000400ea0                __fp_unlock_all
+ .text          0x0000000000400ed0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fwalk.o)
+ *fill*         0x0000000000400ed0       0x10 1f2003d5
+ .text._fwalk_sglue
+                0x0000000000400ee0       0x98 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fwalk.o)
+                0x0000000000400ee0                _fwalk_sglue
+ .text          0x0000000000400f78        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+ *fill*         0x0000000000400f78        0x8 1f2003d5
+ .text._malloc_r
+                0x0000000000400f80      0x830 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x0000000000400f80                _malloc_r
+ .text          0x00000000004017b0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+ *fill*         0x00000000004017b0       0x10 1f2003d5
+ .text._malloc_trim_r
+                0x00000000004017c0      0x110 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+                0x00000000004017c0                _malloc_trim_r
+ *fill*         0x00000000004018d0       0x10 1f2003d5
+ .text._free_r  0x00000000004018e0      0x2e0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+                0x00000000004018e0                _free_r
+ .text          0x0000000000401bc0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x0000000000401bc0        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+                0x0000000000401bc0                __malloc_lock
+ *fill*         0x0000000000401bcc       0x14 1f2003d5
+ .text.__malloc_unlock
+                0x0000000000401be0        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+                0x0000000000401be0                __malloc_unlock
+ .text          0x0000000000401bec        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+ *fill*         0x0000000000401bec       0x14 1f2003d5
+ .text.__sread  0x0000000000401c00       0x4c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                0x0000000000401c00                __sread
+ *fill*         0x0000000000401c4c       0x14 1f2003d5
+ .text.__seofread
+                0x0000000000401c60        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                0x0000000000401c60                __seofread
+ *fill*         0x0000000000401c68       0x18 1f2003d5
+ .text.__swrite
+                0x0000000000401c80       0x70 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                0x0000000000401c80                __swrite
+ *fill*         0x0000000000401cf0       0x10 1f2003d5
+ .text.__sseek  0x0000000000401d00       0x50 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                0x0000000000401d00                __sseek
+ *fill*         0x0000000000401d50       0x10 1f2003d5
+ .text.__sclose
+                0x0000000000401d60        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                0x0000000000401d60                __sclose
+ .text          0x0000000000401d68        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+ *fill*         0x0000000000401d68       0x18 1f2003d5
+ .text._fclose_r
+                0x0000000000401d80      0x130 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+                0x0000000000401d80                _fclose_r
+ *fill*         0x0000000000401eb0       0x10 1f2003d5
+ .text.fclose   0x0000000000401ec0       0x1c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+                0x0000000000401ec0                fclose
+ .text          0x0000000000401edc        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+ *fill*         0x0000000000401edc        0x4 1f2003d5
+ .text.__sflush_r
+                0x0000000000401ee0      0x1ec /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+                0x0000000000401ee0                __sflush_r
+ *fill*         0x00000000004020cc       0x14 1f2003d5
+ .text._fflush_r
+                0x00000000004020e0       0xbc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+                0x00000000004020e0                _fflush_r
+ *fill*         0x000000000040219c        0x4 1f2003d5
+ .text.fflush   0x00000000004021a0       0x3c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+                0x00000000004021a0                fflush
+ .text          0x00000000004021dc        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ *fill*         0x00000000004021dc        0x4 1f2003d5
+ .text.__release_handle
+                0x00000000004021e0       0xa8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                0x00000000004021e0                __release_handle
+ *fill*         0x0000000000402288       0x18 1f2003d5
+ .text.__alloc_handle
+                0x00000000004022a0      0x134 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                0x00000000004022a0                __alloc_handle
+ *fill*         0x00000000004023d4        0xc 1f2003d5
+ .text.__get_handle
+                0x00000000004023e0       0x60 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                0x00000000004023e0                __get_handle
+ .text.dup      0x0000000000402440      0x100 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                0x0000000000402440                dup
+ .text.dup2     0x0000000000402540      0x144 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                0x0000000000402540                dup2
+ *fill*         0x0000000000402684       0x1c 1f2003d5
+ .text._close_r
+                0x00000000004026a0       0xf4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                0x00000000004026a0                _close_r
+ .text          0x0000000000402794        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ *fill*         0x0000000000402794        0xc 1f2003d5
+ .text.null_write
+                0x00000000004027a0        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ *fill*         0x00000000004027a8       0x18 1f2003d5
+ .text.setDefaultDevice
+                0x00000000004027c0       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x00000000004027c0                setDefaultDevice
+ *fill*         0x00000000004027d8        0x8 1f2003d5
+ .text.FindDevice
+                0x00000000004027e0      0x110 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x00000000004027e0                FindDevice
+ *fill*         0x00000000004028f0       0x10 1f2003d5
+ .text.RemoveDevice
+                0x0000000000402900       0x34 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x0000000000402900                RemoveDevice
+ *fill*         0x0000000000402934        0xc 1f2003d5
+ .text.AddDevice
+                0x0000000000402940       0xc4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x0000000000402940                AddDevice
+ *fill*         0x0000000000402a04       0x1c 1f2003d5
+ .text.GetDeviceOpTab
+                0x0000000000402a20       0x34 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x0000000000402a20                GetDeviceOpTab
+ .text          0x0000000000402a54        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ *fill*         0x0000000000402a54        0xc 1f2003d5
+ .text._lseek_r
+                0x0000000000402a60       0xa0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+                0x0000000000402a60                _lseek_r
+ .text          0x0000000000402b00        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .text._read_r  0x0000000000402b00       0xb0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-read.o)
+                0x0000000000402b00                _read_r
+ .text          0x0000000000402bb0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ *fill*         0x0000000000402bb0       0x10 1f2003d5
+ .text._sbrk_r  0x0000000000402bc0       0x70 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+                0x0000000000402bc0                _sbrk_r
+ .text          0x0000000000402c30        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-write.o)
+ *fill*         0x0000000000402c30       0x10 1f2003d5
+ .text._write_r
+                0x0000000000402c40       0xb0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-write.o)
+                0x0000000000402c40                _write_r
+ .text          0x0000000000402cf0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ *fill*         0x0000000000402cf0       0x10 1f2003d5
+ .text          0x0000000000402d00      0x134 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o)
+                0x0000000000402d00                strcmp
+ *fill*         0x0000000000402e34        0xc 1f2003d5
+ .text          0x0000000000402e40      0x1b4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o)
+                0x0000000000402e40                strncmp
+ *fill*         0x0000000000402ff4        0xc 1f2003d5
+ .text          0x0000000000403000       0xcc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o)
+                0x0000000000403000                strchr
+ .text          0x00000000004030cc        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+ *fill*         0x00000000004030cc       0x14 1f2003d5
+ .text.malloc   0x00000000004030e0       0x38 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+                0x00000000004030e0                malloc
+ *fill*         0x0000000000403118        0x8 1f2003d5
+ .text.free     0x0000000000403120       0x1c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+                0x0000000000403120                free
+ .text          0x000000000040313c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+ *fill*         0x000000000040313c        0x4 1f2003d5
+ .text.__set_ctype
+                0x0000000000403140       0x10 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+                0x0000000000403140                __set_ctype
+ *fill*         0x0000000000403150       0x30 1f2003d5
+ .text          0x0000000000403180      0x130 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o)
+                0x0000000000403180                strlen
+ .text          0x00000000004032b0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malignr.o)
+ *fill*         0x00000000004032b0       0x10 1f2003d5
+ .text._memalign_r
+                0x00000000004032c0      0x18c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malignr.o)
+                0x00000000004032c0                _memalign_r
+ .text          0x000000000040344c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtend.o
+ .text          0x000000000040344c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000040344c       0x34
+ *(SORT_NONE(.fini))
+ .fini          0x000000000040344c       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o
+                0x000000000040344c                _fini
+ .fini          0x0000000000403464       0x1c /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x0000000000403480      0x241
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst16  0x0000000000403480       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                                         0x10 (size before relaxing)
+ .rodata.cst16  0x00000000004034b0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                                         0x20 (size before relaxing)
+ .rodata.AddDevice.str1.8
+                0x00000000004034b0        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .rodata.dotab_stdnull
+                0x00000000004034b8      0x100 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x00000000004034b8                dotab_stdnull
+ *fill*         0x00000000004035b8        0x8 
+ .rodata._ctype_
+                0x00000000004035c0      0x101 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+                0x00000000004035c0                _ctype_
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000004036c8      0xb5c
+ *(.eh_frame)
+ .eh_frame      0x00000000004036c8       0x48 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ .eh_frame      0x0000000000403710       0x18 build/src/main.o
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000403728       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000403740       0x28 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-init.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000403768       0x28 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fini.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000403790       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x00000000004037c0       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x00000000004037d8       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000403808       0x58 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x0000000000403860       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-_exit.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000403880      0x100 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000000403980       0x60 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x00000000004039e0       0x20 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000403a00       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000403a18      0x170 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                                        0x188 (size before relaxing)
+ .eh_frame      0x0000000000403b88       0x38 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fwalk.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000403bc0       0x50 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000403c10       0x78 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000403c88       0x28 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000403cb0       0xa0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000403d50       0x68 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000403db8       0x88 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000403e40       0xf0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+                                        0x108 (size before relaxing)
+ .eh_frame      0x0000000000403f30      0x128 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x0000000000404058       0x38 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000404090       0x38 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-read.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x00000000004040c8       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x00000000004040e0       0x38 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-write.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000404118       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000404130       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000404148       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000404160       0x48 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x00000000004041a8       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x00000000004041c0       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x00000000004041d8       0x48 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malignr.o)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000404220        0x4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtend.o
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.note.build-id
+ *(.note.build-id)
+
+.note.GNU-stack
+ *(.note.GNU-stack)
+
+.note.gnu-property
+ *(.note.gnu-property)
+
+.note.ABI-tag
+ *(.note.ABI-tag)
+
+.note.package
+ *(.note.package)
+
+.note.dlopen
+ *(.note.dlopen)
+
+.note.netbsd.ident
+ *(.note.netbsd.ident)
+
+.note.openbsd.ident
+ *(.note.openbsd.ident)
+                0x0000000000414224                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000414224        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000414224        0x0
+                0x0000000000414224                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000000414224                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000414228        0x8
+                0x0000000000414228                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000414228        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+                0x0000000000414230                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000414230        0x8
+                0x0000000000414230                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000414230        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+                0x0000000000414238                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic
+ *(.dynamic)
+
+.got            0x0000000000414238       0xb0
+ *(.got)
+ .got           0x0000000000414238       0xb0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+                0x0000000000414238                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x00000000004142e8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x00000000004142e8       0x18
+ *(.got.plt)
+ .got.plt       0x00000000004142e8       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *(.igot.plt)
+ .igot.plt      0x0000000000414300        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+
+.data           0x0000000000414300     0x2b2c
+                0x0000000000414300                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000414300        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o
+ .data          0x0000000000414300        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ .data.__dso_handle
+                0x0000000000414300        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+                0x0000000000414300                __dso_handle
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o
+ .data          0x0000000000414308        0x0 build/src/main.o
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-init.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fini.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-_exit.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .data          0x0000000000414308        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x0000000000414308        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o)
+                0x0000000000414308                _impure_ptr
+ .data._impure_data
+                0x0000000000414310      0x180 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o)
+                0x0000000000414310                _impure_data
+ .data          0x0000000000414490        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ .data.__sglue  0x0000000000414490       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x0000000000414490                __sglue
+ .data          0x00000000004144a8        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fwalk.o)
+ .data          0x00000000004144a8        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+ .data.__malloc_sbrk_base
+                0x00000000004144a8        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x00000000004144a8                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x00000000004144b0        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x00000000004144b0                __malloc_trim_threshold
+ *fill*         0x00000000004144b8        0x8 
+ .data.__malloc_av_
+                0x00000000004144c0      0x810 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x00000000004144c0                __malloc_av_
+ .data          0x0000000000414cd0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+ .data          0x0000000000414cd0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+ .data          0x0000000000414cd0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+ .data          0x0000000000414cd0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+ .data          0x0000000000414cd0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+ .data          0x0000000000414cd0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ *fill*         0x0000000000414cd0       0x10 
+ .data.handles  0x0000000000414ce0     0x2000 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.__stderr_handle
+                0x0000000000416ce0       0x10 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.__stdout_handle
+                0x0000000000416cf0       0x10 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data.__stdin_handle
+                0x0000000000416d00       0x10 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .data          0x0000000000416d10        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .data.devoptab_list
+                0x0000000000416d10      0x118 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+                0x0000000000416d10                devoptab_list
+ .data.defaultDevice
+                0x0000000000416e28        0x4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malignr.o)
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtend.o
+ .data          0x0000000000416e2c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtn.o
+
+.data1
+ *(.data1)
+                0x0000000000416e2c                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000416e30                . = ALIGN (ALIGNOF (NEXT_SECTION))
+                0x0000000000416e30                __bss_start = .
+                0x0000000000416e30                __bss_start__ = .
+
+.bss            0x0000000000416e30      0x640
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000416e30        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crti.o
+ .bss           0x0000000000416e30        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ .bss.completed.1
+                0x0000000000416e30        0x1 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ *fill*         0x0000000000416e31        0x7 
+ .bss.object.0  0x0000000000416e38       0x30 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+ .bss           0x0000000000416e68        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/crt0.o
+ .bss           0x0000000000416e68        0x0 build/src/main.o
+ .bss           0x0000000000416e68        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-memset.o)
+ .bss           0x0000000000416e68        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-init.o)
+ .bss           0x0000000000416e68        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fini.o)
+ .bss           0x0000000000416e68        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+ .bss.__stdio_exit_handler
+                0x0000000000416e68        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-exit.o)
+ .bss           0x0000000000416e70        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-atexit.o)
+ .bss           0x0000000000416e70        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+ .bss.__atexit0
+                0x0000000000416e70      0x318 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__atexit.o)
+                0x0000000000416e70                __atexit0
+ .bss           0x0000000000417188        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+ .bss.__atexit  0x0000000000417188        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+                0x0000000000417188                __atexit
+ .bss.__atexit_recursive_mutex
+                0x0000000000417190        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-__call_atexit.o)
+                0x0000000000417190                __atexit_recursive_mutex
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-_exit.o)
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-syscall_support.o)
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-clocks.o)
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-errno.o)
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-getreent.o)
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-impure.o)
+ .bss           0x000000000041719c        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x000000000041719c        0x4 
+ .bss.__sfp_recursive_mutex
+                0x00000000004171a0        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+ *fill*         0x00000000004171ac        0x4 
+ .bss.__sf      0x00000000004171b0      0x228 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x00000000004171b0                __sf
+ .bss.__stdio_exit_handler
+                0x00000000004173d8        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-findfp.o)
+                0x00000000004173d8                __stdio_exit_handler
+ .bss           0x00000000004173e0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fwalk.o)
+ .bss           0x00000000004173e0        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x00000000004173e0       0x50 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x00000000004173e0                __malloc_current_mallinfo
+ .bss.__malloc_max_total_mem
+                0x0000000000417430        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x0000000000417430                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x0000000000417438        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x0000000000417438                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x0000000000417440        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mallocr.o)
+                0x0000000000417440                __malloc_top_pad
+ .bss           0x0000000000417448        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-freer.o)
+ .bss           0x0000000000417448        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+ .bss.__malloc_recursive_mutex
+                0x0000000000417448        0xc /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-mlock.o)
+ .bss           0x0000000000417454        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-stdio.o)
+ .bss           0x0000000000417454        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fclose.o)
+ .bss           0x0000000000417454        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-fflush.o)
+ .bss           0x0000000000417454        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .bss.__hndl_lock
+                0x0000000000417454        0x4 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-handle_manager.o)
+ .bss           0x0000000000417458        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-iosupport.o)
+ .bss           0x0000000000417458        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-lseek.o)
+ .bss           0x0000000000417458        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-read.o)
+ .bss           0x0000000000417458        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .bss.heap_start.0
+                0x0000000000417458        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-sbrk.o)
+ .bss           0x0000000000417460        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-write.o)
+ .bss           0x0000000000417460        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+ .bss.fake_heap_start
+                0x0000000000417460        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+                0x0000000000417460                fake_heap_start
+ .bss.fake_heap_end
+                0x0000000000417468        0x8 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libsysbase.a(libsysbase_libsysbase_a-malloc_vars.o)
+                0x0000000000417468                fake_heap_end
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strcmp.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strncmp.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strchr.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malloc.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-ctype_.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-strlen.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/../../../../aarch64-none-elf/lib/libg.a(libc_a-malignr.o)
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtend.o
+ .bss           0x0000000000417470        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtn.o
+ *(COMMON)
+                0x0000000000417470                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000417470                _bss_end__ = .
+                0x0000000000417470                __bss_end__ = .
+                0x0000000000417470                . = ALIGN (0x8)
+                0x0000000000417470                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000417470                . = ALIGN (0x8)
+                0x0000000000417470                __end__ = .
+                0x0000000000417470                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000417470                . = DATA_SEGMENT_END (.)
+
+.stack          0x0000000000080000        0x0
+                0x0000000000080000                _stack = .
+ *(.stack)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x18
+ *(.comment)
+ .comment       0x0000000000000000       0x18 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtbegin.o
+                                         0x19 (size before relaxing)
+ .comment       0x0000000000000018        0x0 build/src/main.o
+                                         0x19 (size before relaxing)
+ .comment       0x0000000000000018        0x0 /opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/15.2.0/crtend.o
+                                         0x19 (size before relaxing)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 build/src/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000       0x55
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x55 build/src/main.o
+
+.debug_abbrev   0x0000000000000000       0x40
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x40 build/src/main.o
+
+.debug_line     0x0000000000000000       0x54
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x54 build/src/main.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000       0x6b
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x6b build/src/main.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000       0x1a
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0x1a build/src/main.o
+                                         0x33 (size before relaxing)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000       0x17
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000       0x17 build/src/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+ *(.gnu_object_only)
+OUTPUT(hello_world.elf elf64-littleaarch64)
+LOAD linker stubs
