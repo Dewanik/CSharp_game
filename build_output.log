@@ -1,0 +1,20 @@
+🔨 Building Nintendo Switch Hello World...
+
+📦 Cleaning...
+🔧 Compiling src/main.c...
+Linking hello_world.elf...
+✅ ELF build successful!
+
+🔄 Converting to NRO format...
+✅ NRO conversion successful!
+
+📊 Final binaries:
+bash: line 33: file: command not found
+bash: line 34: file: command not found
+
+-rwxrwxrwx 1 root root 2.4M Jan 12 06:29 hello_world.elf
+-rw-rw-rw- 1 root root  92K Jan 12 06:29 hello_world.nro
+
+✅ Binaries ready:
+   ELF:  /workspaces/CSharp_game/arm_dev/hello_world.elf (for debugging)
+   NRO:  /workspaces/CSharp_game/arm_dev/hello_world.nro (for Nintendo Switch Homebrew Launcher)
